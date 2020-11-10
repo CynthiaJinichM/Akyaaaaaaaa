@@ -1,0 +1,435 @@
+*{margin: 0;padding: 0;}
+
+body{
+    background-color: #fffffa;
+    font-family: "George";
+    font-size: 20px;
+}
+
+h1{
+    font-family: "lemonMilk";    
+}
+
+.Equipo h1{
+    font-family: "lemonMilk";
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    color:#4f3da8;
+}
+
+.titulos h1{
+    font-family: "lemonMilk";
+    font-size: 60px;
+    padding: 10px;
+    text-align: center;
+    color:#4f3da8;
+}
+
+.titulos p{
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2{
+    font-family: "lemonMilk";
+    font-size: 95%;
+}
+
+h3{
+    font-family: "lemonMilk"
+}
+
+h4{
+    font-family: "lemonMilk"
+}
+
+p{
+    font-family: "George";
+}
+
+@font-face {
+    font-family: "lemonMilk";
+    src: url(lemonmilk.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Saonara";
+    src: url(Saonara.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "George";
+    src:url(George.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background: #eb5b46;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    font-family: "lemonMilk";
+}
+
+.Menu{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+}
+
+header nav{
+    float: right;
+    line-height: 120px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav a{
+    display: inline-block;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+header nav a:hover {
+    background: #4f3da8;
+    		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+}
+
+.contenido{
+    padding-top: 130px;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* INDEX */
+
+video { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  object-fit: cover;
+  object-position: center;
+opacity: 60%;
+}
+
+.Index-right{
+    float: right;
+    position: relative;
+    height: 500px;
+    width: 45%;
+    padding: 180px 40px;
+    text-align: right;
+}
+
+
+.Index-datos{
+    width: 33%;
+    display: inline-block;
+    padding-top: 170px;
+    padding-bottom: 50px;
+    margin: auto;
+    float: left;
+    text-align: center;
+}
+
+.Index-datos ul{
+    list-style: none;
+}
+
+/*Contacto*/
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+    border-radius: 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+    outline: none;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+    border-radius: 20px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+    outline: none;
+}
+
+input[type=submit] {
+  background-color: #9180e9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+    border-radius: 50px;
+    outline: none;
+}
+
+input[type=submit]:hover {
+  background-color: #4f3da8;
+ outline: none;
+}
+
+.containerContacto {
+  border-radius: 50px;
+  background-color: #938cb1;
+  padding: 10px;
+}
+
+.columnContacto {
+  
+  width: 100%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Equipo */
+.Persona table{
+    border: 0;
+    text-align: center;
+    width: 100%;
+}
+.Persona td{
+    padding: 15px;
+}
+.Persona li{
+    
+    padding-top: 10px;
+}
+.Persona ul {
+    text-align: center;
+    list-style: none;
+}
+.Persona img{
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+}
+.lineaPersonas iframe{
+    height: 410px;
+    padding: 10px;
+}
+
+
+/* Servicios  */
+
+.Top-Servicios{
+    height: 400px;
+    width: 100%;
+    background-position:center;
+    background-size: cover;
+    background-image: url(Zonas%20colaborativas%203.jpg);
+}
+.containerServicio {
+  position: relative;
+    z-index: -10px;
+  width: 100%;
+}
+
+.image {
+    position: initial;
+  width: 160px;
+  height: 160px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-color: #938cb1;
+}
+
+.containerServicio:hover .overlay {
+  opacity: 1;
+  transition: .3s ease;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+    height: 90%;
+    width: 95%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.TablaServicios{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.TablaServicios td{
+    width: 250px;
+    height: auto;
+}
+
+/*Oportunidades*/
+
+.oportunidades ul{
+    margin-left: 80px;
+}
+
+/* Redes */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?bhws9a');
+  src:  url('fonts/icomoon.eot?bhws9a#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?bhws9a') format('truetype'),
+    url('fonts/icomoon.woff?bhws9a') format('woff'),
+    url('fonts/icomoon.svg?bhws9a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-skype:before {
+  content: "\eac5";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-boz-sizing:border-box;
+    box-sizing: border-box;
+}
+
+.social {
+	position: fixed; 
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 300px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #ec5b46;
+		padding: 10px 15px;
+		text-decoration: none;
+ /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#4f3ea8;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #f7977e;}
+    .social ul li .icon-linkedin2 {background: #928cb0;}
+	.social ul li .icon-skype {background: #9180ea;}
+	.social ul li .icon-mail {background: #928cb0;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+        		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+}
+
+/* Footer */
+#footer{
+    font-size: 20px;
+    width: 100%;
+    height: 160px;
+    background-color: #eb5b46;
+    color: white;
+    vertical-align: middle;
+}
+#footer-left{
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    padding: 50px;
+    width: 33%
+    
+    
+}
+#footer-center{
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    width: 33%;
+    padding: 50px;
+}
+#footer-right{
+    text-align: right;
+    float: left;
+    margin-right: 3px;
+    width: 33%;
+    padding: 20px;
+    padding-right: 40px;
+    
+}
